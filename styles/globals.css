@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#E5E5E5];
+    @apply text-[#BDBDBD]
+    /* @apply px-[8.4375rem]; */;
+  }
+}
+
+@font-face {
+  font-family: "TThoves";
+  src: url("/public/assets/fonts/TTHoves-Regular.ttf");
+}
