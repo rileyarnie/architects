@@ -4,7 +4,7 @@ import icon from "../public/icon.png";
 
 const Navbar = () => {
   return (
-    <nav className="max-h-[6.375rem] h-[6.375rem] fixed top-0 w-full z-10 px-[8.4375rem] py-[2rem] grid grid-flow-col grid-cols-3 text-text-secondary font-hoves uppercase bg-[#E5E5E5]">
+    <nav className="max-h-[6.375rem] h-[6.375rem] fixed top-0 w-full z-10 px-[8.4375rem] py-[2rem] grid grid-flow-col grid-cols-3 text-text-secondary font-hoves uppercase bg-white">
       <Image
         src={icon}
         height={44}
