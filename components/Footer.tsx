@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import icon from "../public/assets/images/footerIcon.png";
+import Facebook from "./icons/Facebook";
+import Twitter from "./icons/Twitter";
+import LinkedIn from "./icons/LinkedIn";
+import Pinterest from "./icons/Pinterest";
 
 const Footer = () => {
   return (
@@ -37,12 +41,12 @@ const Footer = () => {
         </div>
         <div className="space-y-[1.5625rem]">
           <p className="font-semibold">Social networks</p>
-          <ul className="flex space-x-[2.5rem]">
-            <li>fa</li>
-            <li>tw</li>
-            <li>li</li>
-            <li>pi</li>
-          </ul>
+          <div className="flex space-x-[2.5rem]">
+            <Facebook />
+            <Twitter />
+            <LinkedIn />
+            <Pinterest />
+          </div>
         </div>
       </div>
     </footer>
