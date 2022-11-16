@@ -30,7 +30,14 @@ export default function Home() {
             <p>02</p>
           </div>
         </div>
-        <div className=" col-span-2  bg-first-hero bg-center bg-cover bg-no-repeat"></div>
+        <div className=" col-span-2  bg-first-hero bg-center bg-cover bg-no-repeat">
+          <div className="h-[4.4375rem] w-[13.875rem] bg-white bottom-0 absolute grid place-items-center text-text-secondary hover:cursor-pointer hover:bg-text-secondary hover:text-text-primary">
+            <div className="flex space-x-3">
+              <h4>Look at </h4>
+              <ArrowRight invert />
+            </div>
+          </div>
+        </div>
       </main>
 
       <footer></footer>
