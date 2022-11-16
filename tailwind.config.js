@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "first-hero": "url('/assets/images/hero.png')",
+        "footer-icon": "url('/assets/images/footerIcon.png')",
       },
       colors: {
         "arch-gray": "#2C2C2C",
