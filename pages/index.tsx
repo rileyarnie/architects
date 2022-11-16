@@ -31,9 +31,9 @@ export default function Home() {
           </div>
         </div>
         <div className=" col-span-2  bg-first-hero bg-center bg-cover bg-no-repeat">
-          <div className="h-[4.4375rem] w-[13.875rem] bg-white bottom-0 absolute grid place-items-center text-text-secondary hover:cursor-pointer hover:bg-text-secondary hover:text-text-primary">
+          <div className="h-[4.4375rem] w-[13.875rem] bg-white bottom-0 absolute grid place-items-center text-text-secondary hover:cursor-pointer hover:bg-text-secondary hover:text-text-primary duration-300 origin-left">
             <div className="flex space-x-3">
-              <h4>Look at </h4>
+              <h4>View Project </h4>
               <ArrowRight invert />
             </div>
           </div>
