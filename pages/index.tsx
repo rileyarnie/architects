@@ -17,10 +17,10 @@ export default function Home() {
             <span className="text-text-secondary font-semibold">Nurtown</span>
           </h3>
           <div className="flex space-x-[1.875rem]">
-            <div className="border-[1px] border-[#F2F2F2] bg-[#F9F9F9] h-[3.375rem] w-[3.375rem] grid place-items-center">
+            <div className="border-[1px] border-[#F2F2F2] bg-[#F9F9F9] h-[3.375rem] w-[3.375rem] grid place-items-center cursor-pointer">
               <ArrowLeft />
             </div>
-            <div className="border-[1px] border-gray-200 bg-gray-300 h-[3.375rem] w-[3.375rem] grid place-items-center">
+            <div className="border-[1px] border-gray-200 bg-gray-300 h-[3.375rem] w-[3.375rem] grid place-items-center cursor-pointer">
               <ArrowRight />
             </div>
           </div>
