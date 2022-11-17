@@ -14,3 +14,7 @@
   font-family: "TThoves";
   src: url("/public/assets/fonts/TTHoves-Regular.ttf");
 }
+@font-face {
+  font-family: "SFPro";
+  src: url("/public/assets/fonts/SFProDisplay-Bold.ttf");
+}

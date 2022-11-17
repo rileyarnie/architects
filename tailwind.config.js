@@ -21,6 +21,7 @@ module.exports = {
       },
       fontFamily: {
         hoves: ["TThoves", "sans-serif"],
+        "sf-pro": ["SFPro", "sans-serif"],
       },
     },
   },
