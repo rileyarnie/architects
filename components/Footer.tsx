@@ -5,6 +5,9 @@ import Facebook from "./icons/Facebook";
 import Twitter from "./icons/Twitter";
 import LinkedIn from "./icons/LinkedIn";
 import Pinterest from "./icons/Pinterest";
+import LocationIcon from "./icons/LocationIcon";
+import MailIcon from "./icons/MailIcon";
+import PhoneIcon from "./icons/PhoneIcon";
 
 const Footer = () => {
   return (
@@ -23,19 +26,19 @@ const Footer = () => {
         </div>
         <div className="space-y-[1.5625rem]">
           <p className="font-semibold">Contacts</p>
-          <div className="flex align-middle space-x-[1rem]">
-            <p>icon</p>
+          <div className="flex align-middle space-x-[1rem] items-center">
+            <LocationIcon />
             <p>
               100000, Republic of Kazakhstan,
               <br /> d. Karaganda, str. Television 10
             </p>
           </div>
-          <div className="flex align-middle space-x-[1rem]">
-            <p>icon</p>
+          <div className="flex align-middle space-x-[1rem] items-center">
+            <PhoneIcon />
             <p>+7 (701) 77 76 811</p>
           </div>
-          <div className="flex align-middle space-x-[1rem]">
-            <p>icon</p>
+          <div className="flex align-middle space-x-[1rem] items-center">
+            <MailIcon />
             <p>Galym.sultanov@mail.ru</p>
           </div>
         </div>
